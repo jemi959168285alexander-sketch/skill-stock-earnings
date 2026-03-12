@@ -1,0 +1,18 @@
+name: skill-stock-earnings
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - mplfinance
+  - requests
+  - beautifulsoup4
+  - lxml
+  - pyarrow
+  - pip:
+      - akshare
+      - tqdm

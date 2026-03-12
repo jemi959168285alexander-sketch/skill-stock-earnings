@@ -1,0 +1,10 @@
+akshare
+pandas
+numpy
+matplotlib
+mplfinance
+requests
+beautifulsoup4
+lxml
+pyarrow
+tqdm

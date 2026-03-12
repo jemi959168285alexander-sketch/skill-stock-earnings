@@ -1,0 +1,35 @@
+{
+  "name": "stock-earnings",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for fetching listed company earnings data (A-shares, US stocks, HK stocks)",
+  "main": "scripts/parse_earnings.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parse-eastmoney": "node scripts/parse_earnings.js parse-eastmoney",
+    "parse-yahoo": "node scripts/parse_earnings.js parse-yahoo",
+    "fetch-a": "./scripts/fetch_a_shares.sh",
+    "fetch-us": "./scripts/fetch_us_stocks.sh",
+    "fetch-hk": "./scripts/fetch_hk_stocks.sh"
+  },
+  "keywords": [
+    "stock",
+    "earnings",
+    "financial",
+    "A-shares",
+    "US-stocks",
+    "HK-stocks",
+    "openclaw",
+    "skill"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/skills/stock-earnings"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
